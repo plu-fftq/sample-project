@@ -1,0 +1,26 @@
+This purpose of the program is to filter the customer info and save to files, given a preslected sample file.
+Project files:
+makefile
+main.cpp
+stb_utils.h
+stb_utils.cpp
+stb_csv_reader.h
+stb_csv_reader.cpp
+stb_csv_writer.h
+stb_csv_writer.cpp
+
+To build: make
+To clean: make clean
+To run: ./runtest
+
+INPUTS: Files under current dir
+CUSTOM.CSV
+INVOICE.CSV
+INVOICE_ITEM.CSV
+CUSTOM_SAMPLE.CSV
+
+Output: Files under current dir
+SMALLER_CUSTOMER.CSV
+SMALLER_INVOICE.CSV
+SMALLE_INVOICE_ITEM.CSV
+
